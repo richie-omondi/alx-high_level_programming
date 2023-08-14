@@ -121,6 +121,9 @@
 
 ## 102-magic_calculation.py
 > Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/9412679c-dec2-44fa-89ce-ed3ca6c6ce61)
+
 ```
   3           0 LOAD_CONST               1 (98)
               3 LOAD_FAST                0 (a)
