@@ -39,6 +39,10 @@ followed by a new line
 - You are not allowed to store characters in a variable
 - You are not allowed to import any module
 
+The chr() function returns the character that represents the specified unicode number. For example, chr(97) returns ‘a’.123
+
+The end parameter specifies what to print at the end of the line. The default value is ‘\n’, which means a new line. By setting end=“” you are telling Python not to print anything at the end of the line, so the characters are printed next to each other.
+
   
 # 3-print_alphabt.py
 
