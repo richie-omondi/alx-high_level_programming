@@ -116,6 +116,9 @@
 
 - The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/e99f4c7e-4f42-45e7-a3a3-5d190f205a64)
+
+
 ## 102-magic_calculation.py
 > Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
 ```
