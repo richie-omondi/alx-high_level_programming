@@ -17,16 +17,16 @@
   
 # 1-last_digit.py
 
-> This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable number.
+> This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print the last digit of the `number` stored in the variable number.
 
 - You can find the source code [here](https://alx-intranet.hbtn.io/rltoken/hU682hcMxVchqWAcmh32tA)
-- The variable number will store a different value every time you will run this program
-- You don’t have to understand what import, random.randint do. Please do not touch this code. This line should not change: number = random.randint(-10000, 10000).
+- The variable `number` will store a different value every time you will run this program
+- You don’t have to understand what `import`, `random` or `randint` do. Please do not touch this code. This line should not change: `number = random.randint(-10000, 10000)`.
 - The output of the program should be:
-- The string "Last digit of", followed by the {number}, followed by the string "is", followed by the last digit of number, followed by 
-  - if the last digit is greater than 5: the string and is greater than 5 
-  - if the last digit is 0: the string and is 0 
-  - if the last digit is less than 6 and not 0: the string and is less than 6 and not 0
+- The string `Last digit of`, followed by the `{number}`, followed by the string `is`, followed by the last digit of `number`, followed by 
+  - if the last digit is greater than `5`: the string `and is greater than 5` 
+  - if the last digit is `0`: the string `and is 0` 
+  - if the last digit is less than `6` and not `0`: the string `and is less than 6 and not 0`
 followed by a new line
 
   
@@ -39,9 +39,9 @@ followed by a new line
 - You are not allowed to store characters in a variable
 - You are not allowed to import any module
 
-The chr() function returns the character that represents the specified unicode number. For example, chr(97) returns ‘a’.123
+The `chr()` function returns the character that represents the specified unicode number. For example, `chr(97)` returns `a`.
 
-The end parameter specifies what to print at the end of the line. The default value is ‘\n’, which means a new line. By setting end=“” you are telling Python not to print anything at the end of the line, so the characters are printed next to each other.
+The `end` parameter specifies what to print at the end of the line. The default value is `\n`, which means a new line. By setting `end=“”` you are telling Python not to print anything at the end of the line, so the characters are printed next to each other.
 
   
 # 3-print_alphabt.py
