@@ -105,6 +105,7 @@ The `end` parameter specifies what to print at the end of the line. The default 
 - You are not allowed to use str.upper() and str.isupper()
 
 `ord(c)`
+
 Given a string representing one Unicode character, return an integer representing the Unicode code point of that character. For example, `ord('a')` returns the integer `97`, and `ord('\u2020')` returns `8224`. This is the inverse of `chr()`.
 
   
