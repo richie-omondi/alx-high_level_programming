@@ -96,13 +96,16 @@ The `end` parameter specifies what to print at the end of the line. The default 
   
 # 7-islower.py
 
-> Write a function that checks for lowercase character.
+> Write a function that checks for lowercase characters.
 
 - Prototype: def islower(c):
 - Returns True if c is lowercase
 - Returns False otherwise
 - You are not allowed to import any module
 - You are not allowed to use str.upper() and str.isupper()
+
+`ord(c)`
+Given a string representing one Unicode character, return an integer representing the Unicode code point of that character. For example, `ord('a')` returns the integer `97`, and `ord('\u2020')` returns `8224`. This is the inverse of `chr()`.
 
   
 # 8-uppercase.py
