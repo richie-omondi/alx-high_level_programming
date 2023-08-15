@@ -97,11 +97,11 @@ print_matrix_integer()
 ```
 
   
-# 7-add_tuple.py
+# `7-add_tuple.py`
 
 > Write a function that adds 2 tuples.
 
-- Prototype: def add_tuple(tuple_a=(), tuple_b=()):
+- Prototype: `def add_tuple(tuple_a=(), tuple_b=())`:
 - Returns a tuple with 2 integers:
 - The first element should be the addition of the first element of each argument
 - The second element should be the addition of the second element of each argument
@@ -110,7 +110,8 @@ print_matrix_integer()
 - If a tuple is smaller than 2, use the value 0 for each missing integer
 - If a tuple is bigger than 2, use only the first 2 integers
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/756b8590-9a4c-4cf5-a559-257b03cbf46f)
+
 # 8-multiple_returns.py
 
 > Write a function that returns a tuple with the length of a string and its first character.
