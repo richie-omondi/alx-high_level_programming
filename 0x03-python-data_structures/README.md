@@ -122,16 +122,17 @@ print_matrix_integer()
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/666c9981-ba93-42a5-85af-a2df7d34691d)
 
-# 9-max_integer.py
+# `9-max_integer.py`
 
 > Write a function that finds the biggest integer of a list.
 
-- Prototype: def max_integer(my_list=[]):
+- Prototype: `def max_integer(my_list=[])`:
 - If the list is empty, return None
 - You can assume that the list only contains integers
 - You are not allowed to import any module
-- You are not allowed to use the builtin max()
+- You are not allowed to use the builtin `max()`
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/a7264427-05db-4c62-9249-070dac7fe59e)
   
 # 10-divisible_by_2.py
 
