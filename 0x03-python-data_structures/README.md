@@ -112,15 +112,16 @@ print_matrix_integer()
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/756b8590-9a4c-4cf5-a559-257b03cbf46f)
 
-# 8-multiple_returns.py
+# `8-multiple_returns.py`
 
 > Write a function that returns a tuple with the length of a string and its first character.
 
-- Prototype: def multiple_returns(sentence):
+- Prototype: `def multiple_returns(sentence)`:
 - If the sentence is empty, the first character should be equal to None
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/666c9981-ba93-42a5-85af-a2df7d34691d)
+
 # 9-max_integer.py
 
 > Write a function that finds the biggest integer of a list.
