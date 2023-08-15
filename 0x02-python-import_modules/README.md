@@ -74,10 +74,13 @@
 
 # 5-variable_load.py
 
-> Write a program that imports the variable a from the file variable_load_5.py and prints its value.
+> Write a program that imports the variable `a` from the file `variable_load_5.py` and prints its value.
 
-- You are not allowed to use * for importing or __import__
+- You are not allowed to use `*` for importing or `__import__`
 - Your code should not be executed when imported
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/c976bb23-0a09-4192-98e1-5930d633bbac)
+
 
   ```ADVANCED```
 
