@@ -134,15 +134,16 @@ print_matrix_integer()
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/a7264427-05db-4c62-9249-070dac7fe59e)
   
-# 10-divisible_by_2.py
+# `10-divisible_by_2.py`
 
 > Write a function that finds all multiples of 2 in a list.
 
-- Prototype: def divisible_by_2(my_list=[]):
-- Return a new list with True or False, depending on whether the integer at the same position in the original list is a multiple of 2
+- Prototype: `def divisible_by_2(my_list=[])`:
+- Return a new list with `True` or `False`, depending on whether the integer at the same position in the original list is a multiple of 2
 - The new list should have the same size as the original list
 - You are not allowed to import any module
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/269ebc7e-41b0-480f-ad1c-ac2b55578145)
   
 # 11-delete_at.py
 
