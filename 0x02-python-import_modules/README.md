@@ -55,11 +55,12 @@
 > Write a program that prints the result of the addition of all arguments
 
 - The output should be the result of the addition of all arguments, followed by a new line
-- You can cast arguments into integers by using int() (you can assume that all arguments can be casted into integers)
+- You can cast arguments into integers by using `int()` (you can assume that all arguments can be cast into integers)
 - Your code should not be executed when imported
 - Last but not least, your program should also handle big numbers.
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/1eff9b94-33f8-4642-8e59-778a290c3ae9)
+
 # 4-hidden_discovery.py
 
 > Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally).
