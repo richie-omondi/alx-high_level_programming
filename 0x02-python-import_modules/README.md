@@ -70,7 +70,8 @@
 - Your code should not be executed when imported
 - Make sure you are running your code in `Python3.8.x` (`hidden_4.pyc` has been compiled with this version)
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/ef18f89e-cd9a-4b3d-b24f-321b14e35a5a)
+
 # 5-variable_load.py
 
 > Write a program that imports the variable a from the file variable_load_5.py and prints its value.
