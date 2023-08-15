@@ -156,9 +156,9 @@ print_matrix_integer()
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/4fce7c89-bdef-4e60-859f-06f961a2bbe3)
   
-# 12-switch.py
+# `12-switch.py`
 
-> Complete the source code in order to switch value of a and b
+> Complete the source code in order to switch values of `a` and `b`
 
 - You can find the source code [here](https://alx-intranet.hbtn.io/rltoken/Iwhtw8ZaGLN7TIzodKGnYA)
 - Your code should be inserted where the comment is (line 4)
