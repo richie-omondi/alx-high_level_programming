@@ -145,15 +145,16 @@ print_matrix_integer()
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/269ebc7e-41b0-480f-ad1c-ac2b55578145)
   
-# 11-delete_at.py
+# `11-delete_at.py`
 
 > Write a function that deletes the item at a specific position in a list.
 
-- Prototype: def delete_at(my_list=[], idx=0):
-- If idx is negative or out of range, nothing change (returns the same list)
-- You are not allowed to use pop()
+- Prototype: `def delete_at(my_list=[], idx=0)`:
+- If `idx` is negative or out of range, nothing change (returns the same list)
+- You are not allowed to use `pop()`
 - You are not allowed to import any module
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/4fce7c89-bdef-4e60-859f-06f961a2bbe3)
   
 # 12-switch.py
 
