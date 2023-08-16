@@ -191,4 +191,4 @@ print_matrix_integer()
 
 - Prototype: `void print_python_list_info(PyObject *p)`;
 - Python version: `3.4`
-- Your shared library will be compiled with this command line: gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList`.
+- Your shared library will be compiled with this command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList`.
