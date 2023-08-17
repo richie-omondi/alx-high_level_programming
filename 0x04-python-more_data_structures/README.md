@@ -62,7 +62,6 @@
 
 - Prototype: `def number_keys(a_dictionary)`:
 - You are not allowed to import any module
-
   
 # `6-print_sorted_dictionary.py`
   
@@ -75,7 +74,8 @@
 - Dictionary values can have any type
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/883b9121-aaa5-46b7-893e-7524b7713bdd)
+
 # `7-update_dictionary.py`
 
 > Write a function that replaces or adds key/value in a dictionary.
