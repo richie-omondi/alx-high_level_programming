@@ -109,6 +109,7 @@
 - Returns a new dictionary
 - You are not allowed to import any module
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/479e42cd-0e91-462f-8eff-c7e44f441288)
   
 # `10-best_score.py`
 
