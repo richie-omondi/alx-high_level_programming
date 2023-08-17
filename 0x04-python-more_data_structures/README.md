@@ -15,7 +15,8 @@
 - You are not allowed to import any module
 - You are allowed to use regular loops, `map`, etc.
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/5c222d5f-4038-427b-9589-2da417ec0f5f)
+
 # `1-search_replace.py`
   
 > Write a function that replaces all occurrences of an element with another in a new list.
@@ -26,7 +27,8 @@
 - `replace` is the new element
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/1d27afc8-7105-4840-b22d-06b147baf6ae)
+
 # `2-uniq_add.py`
 
 > Write a function that adds all unique integers in a list (only once for each integer).
@@ -34,6 +36,7 @@
 - Prototype: `def uniq_add(my_list=[])`:
 - You are not allowed to import any module
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/4c08ccd3-8bdf-4389-8e09-0fefff7051a1)
   
 # `3-common_elements.py`
   
@@ -42,7 +45,8 @@
 - Prototype: `def common_elements(set_1, set_2)`:
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/0ffb23f8-1280-4141-80f2-75d91c1e684a)
+
 # `4-only_diff_elements.py`
   
 > Write a function that returns a set of all elements present in only one set.
@@ -50,7 +54,8 @@
 - Prototype: `def only_diff_elements(set_1, set_2)`:
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/2d1e16b9-2640-4930-aaa7-9f6b948aecf0)
+
 # `5-number_keys.py`
   
 > Write a function that returns the number of keys in a dictionary.
