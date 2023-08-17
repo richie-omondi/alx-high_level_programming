@@ -89,7 +89,7 @@
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/98d4c69f-b326-4bf4-af27-00ddac843ab5)
  
-# `9-multiply_by_2.py`
+# `8-simple_delete.py`
 
 > Write a function that deletes a `key` in a dictionary.
 
@@ -98,6 +98,9 @@
 - If a `key` doesn’t exist, the dictionary won’t change
 - You are not allowed to import any module
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/13584ebc-ad27-4866-9de2-5e912a9302fd)
+
+# `9-multiply_by_2.py`
 
 > Write a function that returns a new dictionary with all values multiplied by 2
 
