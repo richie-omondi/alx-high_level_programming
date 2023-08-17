@@ -87,7 +87,8 @@
 - If a `key` doesn’t exist in the dictionary, it will be created
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/98d4c69f-b326-4bf4-af27-00ddac843ab5)
+ 
 # `9-multiply_by_2.py`
 
 > Write a function that deletes a `key` in a dictionary.
