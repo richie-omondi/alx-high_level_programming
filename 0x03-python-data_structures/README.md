@@ -165,30 +165,30 @@ print_matrix_integer()
 - Your program should be exactly 5 lines long
 
   
-# 13-is_palindrome.c, lists.h
+# `13-is_palindrome.c`, `lists.h`
 
 - You are not allowed to google anything
 - Whiteboard first
-> Write a function in C that checks if a singly linked list is a palindrome.
+> Write a function in `C` that checks if a singly linked list is a palindrome.
 
-- Prototype: int is_palindrome(listint_t **head);
-- Return: 0 if it is not a palindrome, 1 if it is a palindrome
+- Prototype: `int is_palindrome(listint_t **head)`;
+- Return: `0` if it is not a palindrome, `1` if it is a palindrome
 - An empty list is considered a palindrome
 
   
 ``` ADVANCED ```
 
 
-# 100-print_python_list_info.c
+# `100-print_python_list_info.c`
 
-- CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
-- Since we now know a bit of C, we can look at what is happening under the hood of Python. Let’s have fun with Python and C, and let’s look at what makes Python so easy to use.
+- `CPython` is the reference implementation of the `Python` programming language. Written in `C`, `CPython` is the default and most widely used implementation of the language.
+- Since we now know a bit of `C`, we can look at what is happening under the hood of `Python`. Let’s have fun with `Python` and `C`, and let’s look at what makes `Python` so easy to use.
 
-- All your files will be interpreted/compiled on Ubuntu 14.04 LTS
+- All your files will be interpreted/compiled on `Ubuntu 14.04 LTS`
 
 
-> Create a C function that prints some basic info about Python lists.
+> Create a `C` function that prints some basic info about `Python` lists.
 
-- Prototype: void print_python_list_info(PyObject *p);
-- Python version: 3.4
-- Your shared library will be compiled with this command line: gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.
+- Prototype: `void print_python_list_info(PyObject *p)`;
+- Python version: `3.4`
+- Your shared library will be compiled with this command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList`.
