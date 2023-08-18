@@ -153,6 +153,8 @@
 - `def roman_to_int(roman_string)` must return an integer
 - If the `roman_string` is not a `string` or `None`, return `0`
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/b984cce8-1bcb-49da-ad4e-04546fb3b51b)
+
 
 # ```ADVANCED```
 
