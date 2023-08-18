@@ -121,7 +121,8 @@
 - You can assume all students have a different score
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/048eddeb-5fd4-4a75-8598-a4653575df1f)
+
 # `11-multiply_list_map.py`
 
 > Write a function that returns a list with all values multiplied by a number without using any loops.
