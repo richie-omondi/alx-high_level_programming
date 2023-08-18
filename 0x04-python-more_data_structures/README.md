@@ -171,20 +171,21 @@
 
 # `101-square_matrix_map.py`
 
-> Write a function that computes the square value of all integers of a matrix using map
+> Write a function that computes the square value of all integers of a matrix using `map`
 
-- Prototype: def square_matrix_map(matrix=[]):
+- Prototype: `def square_matrix_map(matrix=[])`:
 - matrix is a 2 dimensional array
-- Returns a new matrix:
+- Returns a new matrix
 - Same size as matrix
 - Each value should be the square of the value of the input
 - Initial matrix should not be modified
 - You are not allowed to import any module
-- You have to use map
-- You are not allowed to use for or while
+- You have to use `map`
+- You are not allowed to use `for` or `while`
 - Your file should be max 3 lines
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/8a003f45-d53f-4bde-94c4-d0caa612a84b)
+
 # 102-complex_delete.py
 
 > Write a function that deletes keys with a specific value in a dictionary.
