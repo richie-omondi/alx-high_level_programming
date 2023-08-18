@@ -186,16 +186,17 @@
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/8a003f45-d53f-4bde-94c4-d0caa612a84b)
 
-# 102-complex_delete.py
+# `102-complex_delete.py`
 
 > Write a function that deletes keys with a specific value in a dictionary.
 
-- Prototype: def complex_delete(a_dictionary, value):
-- If the value doesn’t exist, the dictionary won’t change
-- All keys having the searched value have to be deleted
+- Prototype: `def complex_delete(a_dictionary, value)`:
+- If the `value` doesn’t exist, the dictionary won’t change
+- All `key`s having the searched `value` have to be deleted
 - You are not allowed to import any module
 
-  
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/74cc9d5e-5f11-4b4b-aac4-3df1f0dfff19)
+ 
 # 103-python.c
 
 > Create two C functions that print some basic info about Python lists and Python bytes objects.
