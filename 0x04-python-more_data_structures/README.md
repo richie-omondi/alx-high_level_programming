@@ -136,6 +136,7 @@
 - You have to use `map`
 - Your file should be max 3 lines
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/1252fdb1-18a8-490c-a1e1-560116bce294)
   
 # `12-roman_to_int.py`
 
