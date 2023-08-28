@@ -197,25 +197,35 @@
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/74cc9d5e-5f11-4b4b-aac4-3df1f0dfff19)
  
-# 103-python.c
+# `103-python.c`
 
-> Create two C functions that print some basic info about Python lists and Python bytes objects.
+> Create two `C` functions that print some basic info about `Python` lists and `Python` bytes objects.
 
 
-- Python lists:
+`Python` lists:
 
-- Prototype: void print_python_list(PyObject *p);
+- Prototype: `void print_python_list(PyObject *p)`;
 
-- Python bytes:
+`Python` bytes:
 
-  - Prototype: void print_python_bytes(PyObject *p);
+  - Prototype: `void print_python_bytes(PyObject *p)`;
   - Line “first X bytes”: print a maximum of 10 bytes
-  - If p is not a valid PyBytesObject, print an error message 
-  - Read /usr/include/python3.4/bytesobject.h
-- About:
+  - If `p` is not a valid `PyBytesObject`, print an error message 
+  - Read `/usr/include/python3.4/bytesobject.h`
 
-  - Python version: 3.4
-  - Your shared library will be compiled with this command line: gcc -Wall -Werror -Wextra -pedantic-std=c99-shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.4 103-python.c
+About:
+
+  - Python version: `3.4`
+  - Your shared library will be compiled with this command line: `gcc -Wall -Werror -Wextra -pedantic-std=c99-shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.4 103-python.c`
+
   - You are not allowed to use the following macros/functions:
+      - `Py_SIZE`
+      - `Py_TYPE`
+      - `PyList_GetItem`
+      - `PyBytes_AS_STRING`
+      - `PyBytes_GET_SIZE`
 
-  
+  ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/11469083-17ca-4a44-9592-62d2f2be4c7d)
+
+  ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/086d436b-5871-453f-884e-45fa9011b460)
+
