@@ -6,6 +6,21 @@ The `print()` function in Python displays a message to the screen or another out
 
 The `end` parameter in the `print()` function is used to specify what string should be added at the end of the output. By default, the `print()` function adds a newline character (`\n`) at the end, which means the next output will start on a new line. However, you can change this behavior by passing a different string to the `end` parameter. For example, if you use `end=“”`, then nothing will be added at the end of the output and the next output will continue on the same line.
 
+`exc_info` is a method in the `sys` module of Python that returns a tuple of three values: the type of the exception, the exception object itself, and a traceback object. You can use it to get information about the last exception that was raised in your program. For example:
+
+```
+try:
+    1 / 0
+except ZeroDivisionError:
+    print(sys.exc_info())
+```
+
+This will print something like:
+
+```
+(<class 'ZeroDivisionError'>, ZeroDivisionError('division by zero'), <traceback object at 0x7f9a8c6c9c80>)
+```
+
 ## ```MANDATORY```
 
 # 0-safe_print_list.py
