@@ -2,7 +2,7 @@
 
 Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are exceptions and not unconditionally fatal: you will soon learn how to handle them in Python programs. However, most exceptions are not handled by programs and result in error messages.
 
-The `print()` function in Python displays a message to the screen or another output device. The message can be a string or any other object that can be converted into a string. The `print()` function has several optional parameters, such as `sep`, `end`, `file` and `flush`, that can change how the message is formatted and where it is sent. In this case, `print(“”)` is used to print an empty string, which means nothing will be displayed but a new line will be added at the end of the output.
+The `print()` function in Python displays a message to the screen or another output device. The message can be a string or any other object that can be converted into a string. The `print()` function has several optional parameters, such as `sep`, `end`, `file`, and `flush`, that can change how the message is formatted and where it is sent. In this case, `print(“”)` is used to print an empty string, which means nothing will be displayed but a new line will be added at the end of the output.
 
 The `end` parameter in the `print()` function is used to specify what string should be added at the end of the output. By default, the `print()` function adds a newline character (`\n`) at the end, which means the next output will start on a new line. However, you can change this behavior by passing a different string to the `end` parameter. For example, if you use `end=“”`, then nothing will be added at the end of the output and the next output will continue on the same line.
 
@@ -19,6 +19,32 @@ This will print something like:
 
 ```
 (<class 'ZeroDivisionError'>, ZeroDivisionError('division by zero'), <traceback object at 0x7f9a8c6c9c80>)
+```
+
+`isinstance` is a built-in function in Python that checks if an object is an instance of a specified type or a subclass of that type. You can also pass a tuple of types to check if the object is one of them. For example:
+
+```
+x = 5
+print(isinstance(x, int)) # True
+print(isinstance(x, float)) # False
+print(isinstance(x, (int, float))) # True
+```
+
+`isinstance` is different from `type` in that it considers inheritance relationships, while `type` only compares the exact type. For example:
+
+```
+class A:
+    pass
+
+class B(A):
+    pass
+
+a = A()
+b = B()
+print(isinstance(a, A)) # True
+print(isinstance(b, A)) # True
+print(type(a) is A) # True
+print(type(b) is A) # False
 ```
 
 ## ```MANDATORY```
