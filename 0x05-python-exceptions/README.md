@@ -1,6 +1,10 @@
 #  ```0x05-python-exceptions```
 
-Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal: you will soon learn how to handle them in Python programs. Most exceptions are not handled by programs, however, and result in error messages.
+Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are exceptions and not unconditionally fatal: you will soon learn how to handle them in Python programs. However, most exceptions are not handled by programs and result in error messages.
+
+The `print()` function in Python displays a message to the screen or another output device. The message can be a string or any other object that can be converted into a string. The `print()` function has several optional parameters, such as `sep`, `end`, `file` and `flush`, that can change how the message is formatted and where it is sent. In this case, `print(“”)` is used to print an empty string, which means nothing will be displayed but a new line will be added at the end of the output.
+
+The `end` parameter in the `print()` function is used to specify what string should be added at the end of the output. By default, the `print()` function adds a newline character (`\n`) at the end, which means the next output will start on a new line. However, you can change this behavior by passing a different string to the `end` parameter. For example, if you use `end=“”`, then nothing will be added at the end of the output and the next output will continue on the same line.
 
 ## ```MANDATORY```
 
