@@ -7,7 +7,7 @@ by: (2-square.py)
 
 class Square:
     """
-    This is a module that defines a class Square
+    This is a class that defines a Square
 
     Attributes:
         size (int): Length of one side of the square.
@@ -24,9 +24,7 @@ class Square:
         if size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
-        """
-        Private instance attribute: size
-        """
+        """ size: Private instance attribute"""
     def area(self):
         """
         Calculates the area of a square
