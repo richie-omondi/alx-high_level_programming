@@ -11,8 +11,9 @@ class Square:
 
     Attributes:
         size (int): Length of one side of the square.
+        position (tuple): Tuple with coordinates of the sqare.
     """
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         """
         The __init__ method initializes attributes whenever an object is instantiated.
 
