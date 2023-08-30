@@ -19,6 +19,7 @@ class Square:
 
         Args:
             size (int): Length of one side of the square.
+            position (tuple): Tuple with coordinates of the sqare.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
