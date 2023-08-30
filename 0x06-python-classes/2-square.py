@@ -1,30 +1,23 @@
 #!/usr/bin/python3
 """
 This is a module that defines a class Square
-by: (based on 1-sqaure.py
+by: (based on 1-sqaure.py)
 """
 
 
 class Square:
     """
-    This is a module that Write a class Square
+    This is a module that defines a class Square
 
     Attributes:
-        size (int): Human readable string describing the exception.
+        size (int): length of one side of the square.
     """
     def __init__(self, size=0):
         """
-        The __init__ method may be documented in either the class level
-        docstring, or as a docstring on the __init__ method itself.
-
-        Either form is acceptable, but the two should not be mixed. Choose one
-        convention to document the __init__ method and be consistent with it.
-
-        Note:
-            Do not include the `self` parameter in the ``Args`` section.
+        The __init__ method initializes the attributes whenever an object is instantiated.
 
         Args:
-            size (int): Description of `param1`.
+            size (int): Length of one side of the square
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
