@@ -28,6 +28,7 @@ Project done during **Full Stack Software Engineering studies**. It aims to lear
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/6badf520-0caa-4278-a436-9f040b1b5934)
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/e259162b-915b-4772-b040-71cfb66042c9)
 
 
 
