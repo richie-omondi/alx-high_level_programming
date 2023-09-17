@@ -28,4 +28,7 @@ Project done during **Full Stack Software Engineering studies at ALX**. The aim 
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/b0ef5fb5-13c2-42a9-9b44-ad7c19d4c51e)
 
+**3-rectangle.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/2fbb3fca-9d1f-41a9-8310-a3926b9e6b5e)
 
