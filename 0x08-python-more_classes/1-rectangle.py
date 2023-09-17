@@ -6,7 +6,8 @@ Rectangle Module
 
 class Rectangle:
     """
-    class Rectangle that defines a rectangle:
+    class Rectangle that defines a rectangle
+    based on 0-rectangle.py:
 
     Args:
         width (int): int
