@@ -15,7 +15,7 @@ Project done during **Full Stack Software Engineering studies at ALX**. The aim 
 | `4-rectangle.py` | Class `Rectangle` that returns with an official string representation of the instance|
 | `5-rectangle.py` | Class `Rectangle` that prints a message when an instance is deleted |
 | `6-rectangle.py` | Class `Rectangle` with a public class attribute that counts the number of instances |
-| `7-rectangle.py` | Class `Rectangle` with a public class attribute to print a specific symbol |
+| `7-rectangle.py` | Class `Rectangle` with a public class attribute to print a specific symbol (`#`) |
 | `8-rectangle.py` | Class `Rectangle` with a method to compare instance's size |
 | `9-rectangle.py` | Class `Rectangle` with a class method that returns a new instance|
 | `101-nqueens.py` | `Backtracking` algorithm that solves the N-Queen puzzle |
@@ -43,3 +43,8 @@ Project done during **Full Stack Software Engineering studies at ALX**. The aim 
 **6-rectangle.py**
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/a0435ff7-a908-4fa5-b658-7e4b5af64f8f)
+
+**7-rectangle.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/08c5f2d4-c92e-4beb-9f79-5c121728a1e1)
+
