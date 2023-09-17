@@ -10,9 +10,9 @@ Project done during **Full Stack Software Engineering studies at ALX**. The aim 
 | -------- | ----------- |
 | `0-rectangle.py` | Empty class `Rectangle` that defines a rectangle |
 | `1-rectangle.py` | Class `Rectangle` that defines a rectangle by its `width` and `height` |
-| `2-rectangle.py` | Class `Rectangle` that has `area` and `permiter` methods |
-| `3-rectangle.py` | Class `Rectangle` that counts with a string representation |
-| `4-rectangle.py` | Class `Rectangle` that count with an official representation |
+| `2-rectangle.py` | Class `Rectangle` that has `area` and `perimeter` methods |
+| `3-rectangle.py` | Class `Rectangle` that returns a string representation of the instance|
+| `4-rectangle.py` | Class `Rectangle` that returns with an official string representation of the instance|
 | `5-rectangle.py` | Class `Rectangle` that prints a message when an instance is deleted |
 | `6-rectangle.py` | Class `Rectangle` with a public class attribute that counts the number of instances |
 | `7-rectangle.py` | Class `Rectangle` with a public class attribute to print a specific symbol |
@@ -36,4 +36,7 @@ Project done during **Full Stack Software Engineering studies at ALX**. The aim 
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/473a8990-c580-4efe-aa84-a534e5bc7553)
 
+**5-rectangle.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/312d6088-3ab3-4b93-802f-577fe1c7ae7e)
 
