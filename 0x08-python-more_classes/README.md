@@ -19,3 +19,8 @@ Project done during **Full Stack Software Engineering studies at ALX**. The aim 
 | `8-rectangle.py` | Class `Rectangle` with a method to compare instance's size |
 | `9-rectangle.py` | Class `Rectangle` with a class method that returns a new instance|
 | `101-nqueens.py` | `Backtracking` algorithm that solves the N-Queen puzzle |
+
+**1-rectangle.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/fb3e27bf-4d56-4a91-ad1c-30e8f3c45095)
+
