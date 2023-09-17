@@ -56,3 +56,6 @@ Project done during **Full Stack Software Engineering studies at ALX**. The aim 
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/b53047dd-0a96-4497-b397-c698ed54c720)
 
+**101-nqueens.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/d547d2d5-1140-4583-a10e-44dc16d8e97e)
