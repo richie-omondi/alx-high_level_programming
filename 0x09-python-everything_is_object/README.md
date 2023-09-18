@@ -29,3 +29,6 @@ This concept is known as aliasing, `l` and `m` refer to the same object (the lis
 
 This project shows different ways Python deals with objects.
 
+**100-magic_string.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/46aa2d1f-abc2-4fb2-b025-6609b642457a)
