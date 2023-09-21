@@ -1,12 +1,18 @@
 #!/usr/bin/python3
 """
-Module Doc
+    3-is_kind_of_class: is_kind_of_class()
 """
 
 
 def is_kind_of_class(obj, a_class):
     """
-    Function Doc
+        is_kind_of_class returns true if the object is instance of class.
+        Args:
+            obj (object): object.
+            a_class (class): class.
+        Return: True or false.
     """
-
-    return isinstance(obj, a_class)
+    if isinstance(obj, a_class):
+        return True
+    else:
+        return False
