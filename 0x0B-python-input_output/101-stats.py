@@ -1,49 +1,52 @@
 #!/usr/bin/python3
-"""
-Module docs
-"""
+import sys
 
 
-if __name__ == '__main__':
-    from sys import stdin
+def print_info():
+    print('File size: {:d}'.format(file_size))
 
-    code_dict = {}
-    total_size = 0
-    file_size_index = -1
-    status_code_index = -2
-    valid_index = [200, 301, 400, 401, 403, 404, 405, 500]
-    i = 0
-    try:
-        for line in stdin:
-            if i != 0 and i % 10 == 0:
-                print("File size: {:d}".format(total_size))
-                for c in sorted(code_dict):
-                    print("{}: {}".format(c, code_dict[c]))
-            stripped = line.split()
-            try:
-                file_size = int(stripped[file_size_index])
-                total_size += file_size
-            except (IndexError, ValueError):
-                pass
-            try:
-                code = int(stripped[status_code_index])
-                if code in valid_index:
-                    print(line)
-                    print(code)
-                    print(code_dict)
-                    if code in code_dict:
-                        code_dict[code] = code_dict[code] + 1
-                    else:
-                        code_dict[code] = 1
-            except (IndexError, ValueError):
-                pass
-            
-            i += 1
-        print("File size: {:d}".format(total_size))
-        for c in sorted(code_dict):
-            print("{}: {}".format(c, code_dict[c]))
-    except KeyboardInterrupt as e:
-        print("File size: {:d}".format(total_size))
-        for c in sorted(code_dict):
-            print("{}: {}".format(c, code_dict[c]))
-        raise
+    for scode, code_times in sorted(status_codes.items()):
+        if code_times > 0:
+            print('{}: {:d}'.format(scode, code_times))
+
+
+status_codes = {
+    '200': 0,
+    '301': 0,
+    '400': 0,
+    '401': 0,
+    '403': 0,
+    '404': 0,
+    '405': 0,
+    '500': 0
+}
+
+lc = 0
+file_size = 0
+
+try:
+    for line in sys.stdin:
+        if lc != 0 and lc % 10 == 0:
+            print_info()
+
+        pieces = line.split()
+
+        try:
+            status = int(pieces[-2])
+
+            if str(status) in status_codes.keys():
+                status_codes[str(status)] += 1
+        except:
+            pass
+
+        try:
+            file_size += int(pieces[-1])
+        except:
+            pass
+
+        lc += 1
+
+    print_info()
+except KeyboardInterrupt:
+    print_info()
+    raise
