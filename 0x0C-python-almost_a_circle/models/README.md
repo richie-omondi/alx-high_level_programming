@@ -12,6 +12,7 @@ This folder contains three classes. They are:
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/2a13e82c-3edc-4cab-b998-ea82374d6b84)
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/260102b7-968a-4fe0-9f0e-0a04b656a030)
 
 **square.py**
 
