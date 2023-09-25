@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # base.py
-""" Module that Defines a base model class."""
+"""Defines a base model class."""
 
 class Base:
     """Represent the base model.
@@ -14,7 +14,7 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """ Initialize a new Base.
+        """Initialize a new Base.
 
         Args:
             id (int): The identity of the new Base.
