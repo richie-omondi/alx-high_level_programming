@@ -61,3 +61,6 @@ Project done during **Alx Full Stack Software Engineering studies**
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/2b83849b-7a6e-4c82-9eac-b5519d8eba04)
 
+**101-stats.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/760cb08f-eaaa-4950-bdea-1bb97b608666)
