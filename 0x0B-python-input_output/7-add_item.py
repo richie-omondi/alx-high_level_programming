@@ -14,7 +14,7 @@ def add_items():
 
     filename = "add_item.json"
 
-    if path.is(filename):
+    if path.isfile(filename):
         arg_list = load_from_json_file(filename)
     else:
         arg_list = []
