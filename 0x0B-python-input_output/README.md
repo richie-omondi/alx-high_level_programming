@@ -44,3 +44,11 @@ Project done during **Alx Full Stack Software Engineering studies**
 
 | `101-stats.py` | Function that reads `stdin` line by line and computes metrics |
 
+**9-student.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/29540ced-d05a-435d-baed-0afeaf8fb725)
+
+**10-student.py**
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/e1f82e0a-274e-4938-b2b1-dc7fed38de9b)
+
