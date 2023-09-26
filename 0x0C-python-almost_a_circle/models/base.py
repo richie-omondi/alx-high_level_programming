@@ -61,7 +61,7 @@ class Base:
             json_string (str): A JSON str representation of a list of dicts.
         Returns:
             If json_string is None or empty - an empty list.
-            Otherwise - the Python list represented by json_string.
+            Otherwise - the Python list is represented by json_string.
         """
         if json_string is None or json_string == "[]":
             return []
@@ -69,7 +69,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
-        """Return a class instantied from a dictionary of attributes.
+        """Return a class instantiated from a dictionary of attributes.
 
         Args:
             **dictionary (dict): Key/value pairs of attributes to initialize.
@@ -144,7 +144,7 @@ class Base:
         except IOError:
             return []
 
-     @staticmethod
+    @staticmethod
     def draw(list_rectangles, list_squares):
         """Draw Rectangles and Squares using the turtle module.
 
