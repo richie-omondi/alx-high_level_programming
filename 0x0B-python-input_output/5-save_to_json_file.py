@@ -13,9 +13,6 @@ def save_to_json_file(my_obj, filename):
         my_obj: object
         filename: textfile name
 
-    Raises:
-        Exception: when the object can't be encoded
-
     """
     with open(filename, 'w', encoding="utf-8") as f:
         json.dump(my_obj, f)
