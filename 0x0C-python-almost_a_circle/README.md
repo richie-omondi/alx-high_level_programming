@@ -29,6 +29,6 @@ Test case for ```square.py```.
 
 ## *Resources*
 
-* [Args and Kwargs in Python](https://alx-intranet.hbtn.io/rltoken/7gc6UzxSL81HcuAwklUbuQ)
-* [unittest module](https://alx-intranet.hbtn.io/rltoken/soictNXCPE18ASL3INoeew)
+* [Args and Kwargs in Python](https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/)
+* [unittest module](https://docs.python.org/3/library/unittest.html)
 * [JSON encoder and decoder](https://docs.python.org/3/library/json.html)
