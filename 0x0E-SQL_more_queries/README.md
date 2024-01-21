@@ -1,5 +1,7 @@
 # SQL More Queries
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/2837c178-562b-420f-a7ed-1c63e7fd2e73)
+
 # Learning Objectives
 
 * How to create a new MySQL user
