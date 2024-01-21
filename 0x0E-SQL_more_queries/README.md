@@ -2,6 +2,10 @@
 
 ![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/2837c178-562b-420f-a7ed-1c63e7fd2e73)
 
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/d875fdc2-8484-41d2-9847-420888ee1762)
+
+![image](https://github.com/richie-omondi/alx-higher_level_programming/assets/69873039/373b9394-7281-49e0-bc22-5a4e12f14823)
+
 # Learning Objectives
 
 * How to create a new MySQL user
